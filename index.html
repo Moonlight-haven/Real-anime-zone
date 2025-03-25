@@ -24,6 +24,7 @@
     <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
+        <li><a href="videos.html">Videos</a></li>
         <li><a href="contact.html">Contact</a></li>
         <li><a href="faq.html">FAQ</a></li>
         <li><a href="privacy.html">Privacy Policy</a></li>
@@ -33,12 +34,11 @@
         </div>
     </header>
     <!-- Hero Section -->
-    
     <section class="hero">
         <div class="container">
             <h1>Get Your Anime Clips</h1>
             <p>Explore the latest and greatest anime moments in high quality.</p>
-            <a href="watch-in/index-watch-page.html" class="btn">Watch Now</a>
+            <a href="#" class="btn">Watch Now</a>
         </div>
     </section>
 
@@ -47,11 +47,13 @@
         <div class="container">
             <h2>Latest Clips</h2>
             <div class="grid">
+                <!-- Video Card 1 -->
                 <div class="video-card">
-                    <img src="assets/images/thumbnail1.jpg" alt="Video Thumbnail">
-                    <source src="videos/Latest Action Anime.mp4" type="video/mp4">
+                    <video controls poster="assets/images/thumbnail1.jpg">
+                        <source src="videos/Latest Action Anime.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
                     </video>
-                    <h3>Latest Action Anime</h3>    
+                    <h3>Latest Action Anime</h3>
                 </div>
             
                 <!-- Add more video cards as needed -->
@@ -66,7 +68,7 @@
                 </div>
                 <div class="video-card">
                     <img src="assets/images/thumbnail4.jpg" alt="Video Thumbnail">
-                    <h3>Anime News</h3>
+                    <h3>Anime Updates</h3>
                 </div>
                 <!-- Add more video cards as needed -->
             </div>
@@ -86,7 +88,7 @@
         </div>
     </footer>
 
-    <!-- Scripts --> <script src="script.js"></script>
+    <!-- Scripts -->
+    <script src="script.js"></script>
 </body>
-   
 </html>
